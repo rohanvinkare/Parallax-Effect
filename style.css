@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(15, 15, 15);
+  color: rgba(95, 232, 232, 0.819);
+  text-align: center;
+}
+
+.Parrallax1 {
+  background-image: url(img/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.Parrallax2 {
+  background-image: url(img/2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.Parrallax3 {
+  background-image: url(img/3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Parrallax4 {
+  background-image: url(img/4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.Parrallax5 {
+  background-image: url(img/5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.Parrallax6 {
+  background-image: url(img/6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Parrallax7 {
+  background-image: url(img/7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Parrallax-inner {
+  padding: 14% 0;
+}
+
+h1 {
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.4);
+}
+h2 {
+  font-size: 32px;
+  color: #e48d21;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 18px 0 8px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0.5px 40px;
+  padding: 20px;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3) {
+  margin: 40px 50px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  p {
+    margin: 10px 10px;
+    padding: 10px;
+  }
+
+  p:nth-of-type(2),
+  p:nth-of-type(3) {
+    margin: 15px 20px;
+  }
+}
